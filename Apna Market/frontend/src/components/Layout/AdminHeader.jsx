@@ -13,13 +13,11 @@ const AdminHeader = () => {
   return (
          <div className="w-full h-[80px] bg-white shadow sticky top-0 left-0 z-30 flex items-center justify-between px-4">
       <div>
-        <Link to="/">
-        <img
-                src="https://i.ibb.co/3ywht9y/Apna-removebg-preview.png"
-                alt=""
-                width="200"
-                height="75"
-              />
+      <Link to="/">
+          <img
+            src="https://shopo.quomodothemes.website/assets/images/logo.svg"
+            alt=""
+          />
         </Link>
       </div>
       <div className="flex items-center">

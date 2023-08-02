@@ -57,14 +57,10 @@ const Header = ({ activeHeading }) => {
       <div className={`${styles.section}`}>
         <div className="hidden 800px:h-[50px] 800px:my-[20px] 800px:flex items-center justify-between">
           <div>
-            <Link to="/">
-            <svg aria-label="BestBuy.com" class="block" height="40" role="img" width="68" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 92">…</svg>
+          <Link to="/">
               <img
-              // https://shopo.quomodothemes.website/assets/images/logo.svg
-                src="https://i.ibb.co/3ywht9y/Apna-removebg-preview.png"
+                src="https://shopo.quomodothemes.website/assets/images/logo.svg"
                 alt=""
-                width="200"
-                height="75"
               />
             </Link>
           </div>
@@ -225,12 +221,11 @@ const Header = ({ activeHeading }) => {
             />
           </div>
           <div>
-            <Link to="/">
-            <img
-                src="https://i.ibb.co/3ywht9y/Apna-removebg-preview.png"
+          <Link to="/">
+              <img
+                src="https://shopo.quomodothemes.website/assets/images/logo.svg"
                 alt=""
-                width="200"
-                height="75"
+                className="mt-3 cursor-pointer"
               />
             </Link>
           </div>
